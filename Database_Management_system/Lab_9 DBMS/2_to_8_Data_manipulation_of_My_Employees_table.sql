@@ -7,13 +7,15 @@
 --4     Newman      Chad                  Cnewman  750
 --5     Ropeburn     Audrey             Aropebur    1550
 
-insert into my_employee (id, last_name, first_name, userid, salary)
-values
-(1, 'patel', 'Ralph', 'Rapatel' ,895), 
-(2, 'Dancs', 'Betty', 'Bdancs', 860), 
-(3, 'Biri', 'Ben', 'Bbiri', 1100),
-(4, 'Newman', 'Chad', 'Cnewman', 750),
-(5, 'Ropeburn', 'Audery', 'Aropebur', 1550);
+insert all
+    into your_employee values (1, 'patel', 'Ralph', 'Rapatel' ,895)
+    into your_employee values (2, 'Dancs', 'Betty', 'Bdancs', 860) 
+    into your_employee values (3, 'Biri', 'Ben', 'Bbiri', 1100)
+    into your_employee values (4, 'Newman', 'Chad', 'Cnewman', 750)
+    into your_employee values (5, 'Ropeburn', 'Audery', 'Aropebur', 1550)
+select * from dual;
+
+
 
 -- 3. Confirm your addition to the table
 select * from my_employee;
